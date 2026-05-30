@@ -8,11 +8,11 @@ This project was developed to use the data in a fun way graphically by **changin
 
 🛠️ Technologies Used
 
-    Frontend: HTML/CSS/JS
+    **Frontend:** HTML / CSS / JS
 
-    Data Handling: [e.g., Axios for API calls, JSON data, etc.]
+    **Data Handling**: Google Sheets API
 
-    Styling: Tailwind CSS,  CSS Modules
+    **Styling:** Tailwind CSS,  CSS Modules
 
 📋 Key Features
 
