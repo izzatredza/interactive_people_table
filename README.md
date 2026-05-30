@@ -1,9 +1,11 @@
 Interactive People Table
 
-A clean, interactive data table application built to display and manage user information.
+A clean, and fun way to play with data
+
 🚀 Overview
 
-This project was developed to provide an intuitive interface for viewing and interacting with structured data. Whether for administrative dashboards or data management tasks, this project focuses on providing a responsive and user-friendly experience.
+This project was developed to use the data in a fun way graphically by **changing the shape of the data** overview with a single click
+
 🛠️ Technologies Used
 
     Frontend: HTML/CSS/JS
@@ -14,6 +16,6 @@ This project was developed to provide an intuitive interface for viewing and int
 
 📋 Key Features
 
-    Interactive Search: Can change the shape of information with a click of a button
+    Dynamic Layout Switching: Can change the shape of information with a click of a button
 
     Responsive Design: Optimized to look great on various screen sizes.
