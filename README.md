@@ -1,7 +1,5 @@
 
 
-https://github.com/user-attachments/assets/e8022c76-49e1-4fbd-a3d7-273b29f1009e
-
 
 
 Interactive People Table
@@ -25,3 +23,5 @@ This project was developed to use the data in a fun way graphically by **changin
     Dynamic Layout Switching: Can change the shape of information with a click of a button
 
     Responsive Design: Optimized to look great on various screen sizes.
+
+<video src "https://github.com/user-attachments/assets/e8022c76-49e1-4fbd-a3d7-273b29f1009e" controls="controls" autoplay="autoplay" loop="loop" muted="muted" style="max-width: 100%;"></video>
