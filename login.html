@@ -4,44 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome Back - Sign In</title>
-    
+
+    <link rel ="stylesheet" href="scc/login.css"
     <script src="https://accounts.google.com/gsi/client" async defer></script>
     
-    <style>
-        /* Simple styling to match the general layout of Image A */
-        body {
-            font-family: Arial, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            background-color: #f0f0f0;
-            margin: 0;
-        }
-        .login-container {
-            background: white;
-            padding: 40px;
-            border-radius: 8px;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-            text-align: center;
-            max-width: 400px;
-            width: 100%;
-        }
-        h2 {
-            margin-bottom: 5px;
-            color: #333;
-        }
-        p {
-            color: #666;
-            margin-bottom: 20px;
-        }
-        /* Style for the custom text/lore as seen in Image A */
-        .lorem-text {
-            font-size: 0.9em;
-            color: #999;
-            margin-bottom: 30px;
-        }
-    </style>
 </head>
 <body>
 
@@ -67,30 +33,7 @@
         </div>
     </div>
     
-    <script>
-        // Step 3: Function to handle the successful login response
-        function handleCredentialResponse(response) {
-            console.log("Encoded JWT ID token: " + response.credential);
-            
-            // --- IMPORTANT: Store the token and redirect ---
-            // In a real application, you would send this token to your backend 
-            // for verification. For this client-side assignment, we'll store it 
-            // and redirect to index.html.
-            
-            // You can use localStorage for simplicity
-            localStorage.setItem('googleToken', response.credential);
-            
-            // Redirect to the main application page
-            window.location.href = 'index.html'; 
-        }
-        
-        // Check if the user is already logged in (optional but good practice)
-        window.onload = function() {
-            if (localStorage.getItem('googleToken')) {
-                // If a token exists, skip login and go to the main page
-                window.location.href = 'index.html';
-            }
-        };
+    <script src = "js/login.js">
     </script>
 </body>
 </html>
