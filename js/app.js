@@ -9,8 +9,8 @@ if (!token) {
 }
 
 // --- GOOGLE SHEETS CONFIGURATION ---
-const SPREADSHEET_ID = '14Fhh8va89hcTNPEB3MH3CYN0XF4iTdo6GZe4O2PFvN4';
-const API_KEY = 'AIzaSyB5tkJv9udQLo4JGe9gTsRc4WIQ9eWtWVY';
+const SPREADSHEET_ID = '***';
+const API_KEY = '***';
 const RANGE = "A1:F";
 
 let camera, scene, renderer;
